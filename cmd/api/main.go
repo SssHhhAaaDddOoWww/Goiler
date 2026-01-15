@@ -5,9 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/SssHhhAaaDddOoWww/miniBank/db"
+	db "github.com/SssHhhAaaDddOoWww/Goiler/internal/database"
 	"github.com/gin-gonic/gin"
-
 	"github.com/joho/godotenv"
 )
 

@@ -1,4 +1,4 @@
-module github.com/SssHhhAaaDddOoWww/miniBank
+module github.com/SssHhhAaaDddOoWww/Goiler
 
 go 1.25.5
 

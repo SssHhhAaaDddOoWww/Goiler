@@ -1,7 +1,10 @@
 package routes
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/SssHhhAaaDddOoWww/Goiler/internal/routes/health"
+	"github.com/gin-gonic/gin"
+)
 
 func Routes(router *gin.Engine) {
-	router.GET("/health")
+	router.GET("/health", health.Health)
 }

@@ -19,8 +19,6 @@ Goiler/
 │   ├── services/          # Business logic layer
 │   └── repository/        # Database access layer
 │
-├── pkg/
-│   └── utils/             # Reusable public utilities
 │
 ├── go.mod                 # Go module definition
 ├── go.sum                 # Dependency checksums
@@ -71,15 +69,6 @@ Handles:
 
 ---
 
-### `pkg/`
-Public, reusable code that **can be imported by other projects**.
-
-Example:
-- Logger
-- Helpers
-- Common utilities
-
----
 
 ## 🚀 Getting Started
 
